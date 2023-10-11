@@ -51,11 +51,11 @@ const Product = () => {
 
     return (
         <div>
-            <div>
+            <div className='inp'>
                 <input type="search" placeholder="Search . . ." onChange={(e) => setSearch(e.target.value)} />
             </div>
             <div>
-                <ul className='card'>
+                <ul className='box'>
                     {renderItems.slice(indexOfFirstItem, indexOfLastItem)}
                 </ul>
             </div>
