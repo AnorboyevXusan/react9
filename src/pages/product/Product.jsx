@@ -12,7 +12,7 @@ const Product = () => {
     const [itemsPerPage] = useState(5)
 
     useEffect(() => {
-        axios.get(`https://65263b7d67cfb1e59ce8075c.mockapi.io/api/category/${id}/product`)
+        axios.get(`https://65263b7d67cfb1e59ce8075c.mockapi.io/api/category/${id || 1}/product`)
             .then(res => {
                 setProduct(res.data);
             });
