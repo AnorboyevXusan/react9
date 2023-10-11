@@ -1,0 +1,15 @@
+.box{
+  margin-top: 120px;
+  .box__card{
+    padding: 5px;
+    border: 1px solid#000;
+    border-radius: 8px;
+    display: flex;
+    flex-flow: column;
+    width: 300px;
+    span{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+}

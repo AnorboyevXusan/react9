@@ -1,0 +1,39 @@
+.login{
+  &__box{
+    width: 220px;
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-top: 200px;
+    background: #978f82;
+    padding: 50px;
+  }
+  &__form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    gap: 20px;
+    input{
+      width: 100%;
+      outline: none;
+      border: none;
+      padding: 10px;
+      border-radius: 6px;
+    }
+    button{
+      background:#fff;
+      padding: 10px 40px;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      color: #978f82;
+     ;
+      }
+    :hover{
+
+      color: black
+    }
+  }
+}
